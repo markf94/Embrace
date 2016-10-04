@@ -5,6 +5,10 @@ HTML5 display definitions
 ========================================================================== */
 
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
+@font-face {
+    font-family: 'Kano'; /*a name to be used later*/
+    src: url('../fonts/Kano.otf'); /*URL to font*/
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
@@ -29,9 +33,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'Kano', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Kano', sans-serif; }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -64,7 +68,7 @@ mark { background: #ff0; color: #000; }
 /* * Addresses margins set differently in IE 6/7. */
 p, pre { margin: 1em 0; }
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
-code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'Kano', monospace; font-size: 1em; }
 /* * Improves readability of pre-formatted text in all browsers. */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 /* * Addresses CSS quotes not supported in IE 6/7. */
@@ -282,6 +286,7 @@ CTA
 /* ==========================================================================
 Team
 ========================================================================== */
+.team { background: url('../img/KohKarang.jpg');  no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
 .team img { margin-bottom: 40px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
