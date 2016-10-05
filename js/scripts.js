@@ -33,6 +33,8 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 
+	$('.cocoen').cocoen();
+
 });
 
 /***************** Slide-In Nav ******************/
