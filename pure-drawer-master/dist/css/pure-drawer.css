@@ -189,7 +189,7 @@ body {
   z-index: 1;
   height: 100%;
   visibility: hidden;
-  background-color: #374c5d;
+  background-color: #374c5d; /*#374c5d*/ 
   -webkit-transition-property: all;
           transition-property: all;
   -webkit-transition-duration: 500ms;
