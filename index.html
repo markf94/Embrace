@@ -35,28 +35,41 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <nav class="pull">
-                    <ul class="top-nav">
-                      <li><a href="#intro">Intro <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#features">Why - How - What <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#responsive">Koh Karang <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#portfolio">Embrace bold IDEAS <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#team">The Koh Karang Tribe <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#team">Embrace the past, present and future<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
+
+                  <nav role="navigation">
+                      <div id="menuToggle">
+                          <!--
+                            A fake / hidden checkbox is used as click reciever,
+                              so you can use the :checked selector on it.
+                              -->
+                                <input type="checkbox" />
+
+                                  <!--
+                                    Some spans to act as a hamburger.
+
+                                      They are acting like a real hamburger,
+                                        not that McDonalds stuff.
+                                        -->
+                                          <span></span>
+                                            <span></span>
+                                              <span></span>
+
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Info</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+    </ul>
+  </div>
+</nav>
           <section class="hero" id="hero">
             <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                </div>
-              </div>
+
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                   <h1 class="animated fadeInDown">EMBRACE Cambodia<span></span></h1>
