@@ -10,6 +10,7 @@ HTML5 display definitions
     src: url('../fonts/Kano.otf'); /*URL to font*/
 }
 
+.row-bottom-margin { margin-bottom:1px !important;margin-top:1px !important  }
 #menuToggle
 {
   display: block;
