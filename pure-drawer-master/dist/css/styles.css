@@ -177,7 +177,7 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: rgba(16, 72, 135, 0.7); text-decoration: none; }
-.amenu {color: #0bc9cd; text-decoration: none; }
+/*.amenu {color: #0bc9cd; text-decoration: none; }
 .amenu:hover {color: #ee6c4d; text-decoration: none; }
 .amenu:focus {color: #ee6c4d; text-decoration: none; }
 .nav-primary li {
@@ -189,8 +189,8 @@ a:hover, a:focus { color: rgba(16, 72, 135, 0.7); text-decoration: none; }
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(63, 86, 106);
-    padding-left: 2rem;     /*0.9375rem;*/
-    padding-right: 2rem; /*0.9375rem;*/
+    padding-left: 2rem;     /*0.9375rem;
+    padding-right: 2rem; /*0.9375rem;
 }
 .nav-primary {
         font-size: 25px;
@@ -222,12 +222,12 @@ nav ul, nav ol {
 }
 .column, .columns {
     position: relative;
-    padding-left: 0rem;     /*0.9375rem;*/
-    padding-right: 0rem; /*0.9375rem;*/
+    padding-left: 0rem;     /*0.9375rem;
+    padding-right: 0rem; /*0.9375rem;
     float: left;
 }
 .navigation{color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 22px; }
-
+*/
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: block; width: 35px; margin: 25px auto; }
@@ -245,12 +245,12 @@ h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: blo
 /* ==========================================================================
 Navigation
 ========================================================================== */
-/*nav { background-color: #242830; margin-top: -1px; }
+nav { background-color: #242830; margin-top: -1px; }
 nav ul { list-style: none; padding: 0; }
 nav ul li { color: rgba(255, 255, 255, 0.6); display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul li:last-child { border: none; }
 nav ul li a { color: rgba(255, 255, 255, 0.6); display: block; padding: 20px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
-nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 255, 255, 1); }*/
+nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 255, 255, 1); }
 #nav-toggle { position: absolute; right: 15px; top: 0; }
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #ffffff; position: absolute; display: block; content: ''; }
@@ -626,7 +626,7 @@ Waypoints
     width: 50%;
   }
 }
-/* ==========================================================================*/
+/* ==========================================================================
 .menu {
 
 	  font-weight: 100;
