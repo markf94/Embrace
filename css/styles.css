@@ -401,12 +401,13 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 
 .cd-primary-nav {
   /* by default it's hidden */
+  font-family: @import url(http://fonts.googleapis.com/css?family=Varela+Round);
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  padding: 80px 5%;
+  padding: 40px 5%;
   z-index: 3;
   background-color: #091d23;
   overflow: auto;
@@ -458,6 +459,16 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
     font-size: 2rem;
   }
 }
+@media only screen and (max-width: 640px) {
+  .cd-primary-nav li {
+    margin: 1.6em 0;
+  }
+  .cd-primary-nav a {
+    font-size: 28px;
+    font-size: 1.6rem;
+  }
+}
+
 
 .cd-overlay-nav, .cd-overlay-content {
   /* containers of the 2 main rounded backgrounds - these containers are used to position the rounded bgs behind the menu icon */
