@@ -1411,7 +1411,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     height: 100px;
     overflow: hidden;
     display: block;
-    padding: 64px 0 0 0;
   }
 
   25% {
@@ -1423,7 +1422,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     height: 100px;
     overflow: hidden;
     display: block;
-    padding: 64px 0 0 0;
   }
 
   50% {
@@ -1435,7 +1433,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     height: 100px;
     overflow: hidden;
     display: block;
-    padding: 64px 0 0 0;
   }
 
   100% {
