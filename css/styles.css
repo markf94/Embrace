@@ -195,6 +195,8 @@ h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: blo
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
 .inner { padding-top: 10px; }
+.inner2 { padding-top: 10px;}
+
 /* ==========================================================================
 Navigation
 ========================================================================== */

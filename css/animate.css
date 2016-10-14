@@ -1299,11 +1299,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInUpBig;
 }
 
-@-webkit-keyframes sunrise {
+@-webkit-keyframes sunrise1 {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(250px);
-    transform: translateY(250px);
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  25% {
+    opacity: 0.25;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
   }
 
   100% {
@@ -1313,25 +1325,122 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes sunrise {
+@keyframes sunrise1 {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(250px);
-    -ms-transform: translateY(250px);
-    transform: translateY(250px);
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  25% {
+    opacity: 0.25;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.sunrise1 {
+  -webkit-animation-name: sunrise1;
+  animation-name: sunrise1;
+  animation-duration: 5s;
+	animation-timing-function: ease;
+}
+
+@-webkit-keyframes sunrise2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  25% {
+    opacity: 0.25;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
   }
 
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
-.sunrise {
-  -webkit-animation-name: sunrise;
-  animation-name: sunrise;
+@keyframes sunrise2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  25% {
+    opacity: 0.25;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  50% {
+    opacity: 0.3;
+    -webkit-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateY(300px);
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.sunrise2 {
+  -webkit-animation-name: sunrise2;
+  animation-name: sunrise2;
+  animation-duration: 5s;
+	animation-timing-function: ease;
 }
 
 @-webkit-keyframes fadeOut {
