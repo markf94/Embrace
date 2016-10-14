@@ -194,7 +194,7 @@ h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: blo
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 10px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
