@@ -1307,19 +1307,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   25% {
-    opacity: 0.25;
+    opacity: 0;
     -webkit-transform: translateY(300px);
     transform: translateY(300px);
   }
 
   50% {
-    opacity: 0.3;
+    opacity: 0;
     -webkit-transform: translateY(300px);
     transform: translateY(300px);
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -1334,21 +1334,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 
   25% {
-    opacity: 0.25;
+    opacity: 0;
     -webkit-transform: translateY(300px);
     -ms-transform: translateY(300px);
     transform: translateY(300px);
   }
 
   50% {
-    opacity: 0.3;
+    opacity: 0;
     -webkit-transform: translateY(300px);
     -ms-transform: translateY(300px);
     transform: translateY(300px);
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px);
@@ -1360,34 +1360,38 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: sunrise1;
   animation-duration: 5s;
 	animation-timing-function: ease;
+  animation-direction: reverse;
 }
 
 @-webkit-keyframes sunrise2 {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(300px);
-    transform: translateY(300px);
+    -webkit-transform: translateY(280px);
+    transform: translateY(280px);
     width: 100px;
     height: 100px;
     overflow: hidden;
+    display: block;
   }
 
   25% {
     opacity: 0.25;
-    -webkit-transform: translateY(300px);
-    transform: translateY(300px);
-    width: 100px;
-    height: 100px;
+    -webkit-transform: translateY(280px);
+    transform: translateY(280px);
+    width: 150px;
+    height: 150px;
     overflow: hidden;
+    display: block;
   }
 
   50% {
     opacity: 0.3;
-    -webkit-transform: translateY(300px);
-    transform: translateY(300px);
-    width: 100px;
-    height: 100px;
+    -webkit-transform: translateY(280px);
+    transform: translateY(280px);
+    width: 200px;
+    height: 200px;
     overflow: hidden;
+    display: block;
   }
 
   100% {
@@ -1400,32 +1404,38 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @keyframes sunrise2 {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(300px);
-    -ms-transform: translateY(300px);
-    transform: translateY(300px);
+    -webkit-transform: translateY(280px);
+    -ms-transform: translateY(280px);
+    transform: translateY(280px);
     width: 100px;
     height: 100px;
     overflow: hidden;
+    display: block;
+    padding: 64px 0 0 0;
   }
 
   25% {
     opacity: 0.25;
-    -webkit-transform: translateY(300px);
-    -ms-transform: translateY(300px);
-    transform: translateY(300px);
+    -webkit-transform: translateY(280px);
+    -ms-transform: translateY(280px);
+    transform: translateY(280px);
     width: 100px;
     height: 100px;
     overflow: hidden;
+    display: block;
+    padding: 64px 0 0 0;
   }
 
   50% {
     opacity: 0.3;
-    -webkit-transform: translateY(300px);
-    -ms-transform: translateY(300px);
-    transform: translateY(300px);
+    -webkit-transform: translateY(280px);
+    -ms-transform: translateY(280px);
+    transform: translateY(280px);
     width: 100px;
     height: 100px;
     overflow: hidden;
+    display: block;
+    padding: 64px 0 0 0;
   }
 
   100% {
