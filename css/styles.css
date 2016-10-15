@@ -37,7 +37,7 @@ html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgb
 * elements. */
 html, button, input, select, textarea { font-family: 'Kano', sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Kano', sans-serif; }
+body { margin: 10; font-family: 'Kano', sans-serif; }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -680,7 +680,7 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0; }
-footer { background-color: rgba(16, 72, 135, 0.7); padding: 40px 0 30px; }
+footer { background-color: rgba(16, 72, 135, 0.7); padding: 40px 0 10px; }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
