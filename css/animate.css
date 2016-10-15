@@ -1446,7 +1446,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .sunrise2 {
   -webkit-animation-name: sunrise2;
   animation-name: sunrise2;
-  animation-duration: 5s;
+  animation-duration: 7s;
 	animation-timing-function: ease;
 }
 
