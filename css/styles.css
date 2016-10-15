@@ -564,6 +564,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
   }
   .cd-content p {
     font-size: 18px;
+    font-style: italic;
     font-size: 1.5em;/*1.125rem;*/
     line-height: 1.8;
   }
