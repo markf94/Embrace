@@ -1407,19 +1407,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translateY(280px);
     -ms-transform: translateY(280px);
     transform: translateY(280px);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     display: block;
   }
 
+  /*
   25% {
     opacity: 0.25;
     -webkit-transform: translateY(280px);
     -ms-transform: translateY(280px);
     transform: translateY(280px);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     display: block;
   }
@@ -1429,12 +1430,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translateY(280px);
     -ms-transform: translateY(280px);
     transform: translateY(280px);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     display: block;
   }
 
+*/
   100% {
     opacity: 1;
     -webkit-transform: translateY(0px);
@@ -1446,7 +1448,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .sunrise2 {
   -webkit-animation-name: sunrise2;
   animation-name: sunrise2;
-  animation-duration: 7s;
+  animation-duration: 6s;
 	animation-timing-function: ease;
 }
 

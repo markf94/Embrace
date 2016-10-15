@@ -251,8 +251,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 .cd-nav-trigger {
   top: 18px;
   right: 5%;
-  height: 44px;
-  width: 44px;
+  height: 54px;
+  width: 54px;
   z-index: 5;
   /* image replacement */
   overflow: hidden;
