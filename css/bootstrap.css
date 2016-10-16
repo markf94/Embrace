@@ -3564,10 +3564,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 4px;
-  height: 100px;
-  width: 70px;
-  margin-left: 200px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px !important;
+  text-align: justify;;
+  border-radius: 10px;
+  height: 120px;
+  width: 180px;
+  margin-left: 115px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -3575,8 +3579,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #428bca;
+    color: #fff;
+    background-color: rgba(16, 72, 135, 0.7);
 }
 .nav-stacked > li {
   float: none;
