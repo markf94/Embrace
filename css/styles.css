@@ -57,7 +57,7 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 
-h1 { font-size: 2em; margin: 0.67em 0; color: #fff; }
+h1 { font-size: 2em; margin: 0.67em 0; color: #fff;font-weight: bold;}
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
@@ -578,8 +578,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/KohKarang.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
+.hero { background: url('../img/KohKarang.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 5px 0 250px 0; height: auto; }
+.hero h1 { font-size: 50px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
   .learn-more-btn { background: rgba(16, 72, 135, 0.7); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); -moz-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); margin: 60px 0 0; font-weight: bold; }
@@ -962,7 +962,7 @@ Waypoints
     white-space: nowrap;
     text-align: center;
     position: relative;
-    background:#ddd
+    background:#ddd;
 }
 #custom_carousel .controls li {
     display: table-cell;
@@ -978,5 +978,5 @@ Waypoints
     display:block;
     font-size:100px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
 }
