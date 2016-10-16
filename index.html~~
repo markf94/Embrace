@@ -79,7 +79,7 @@
                 <img class="animated sunrise2 delay-02s" src="img/logoembrace.svg" alt="Logo Embrace Cambodia" style="width:304px;height:228px;">
               </div>
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown">EMBRACE Cambodia</h1>
+                  <h1 class="animated fadeInDown">EMBRACE Cambodia<span></span></h1>
                   <p class="animated fadeInUp delay-05s">A MARINE PRESERVATION PROJECT</em></p>
                 </div>
               </div>
@@ -88,7 +88,7 @@
               </div>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown">អភិរក្ស <span> កម្ពុជ</h1>
+                  <h1 class="animated fadeInDown">អភិរក្ស ​កម្ពុជ<span></span></h1>
                 </div>
               </div>
           </section>
