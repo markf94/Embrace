@@ -6,13 +6,16 @@ HTML5 display definitions
 
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
 @font-face {
-    font-family: 'Kano'; /*a name to be used later*/
-    src: url('../fonts/Kano.otf'); /*URL to font*/
+    font-family: ¨Kano¨; /*a name to be used later*/
+    src: url('fonts/Kano.otf') format("opentype"); /*URL to font*/
 }
 
 @font-face {
     font-family: 'KHB'; /*a name to be used later*/
-    src: url('../fonts/Kh-Battambang.ttf'); /*URL to font*/
+    src: url('fonts/Kh-Battambang.ttf'); /*URL to font*/
+}
+p.customfont {
+	font-family: "Kano", "Open Sans";
 }
 
 .row-bottom-margin { margin-bottom:1px !important;margin-top:1px !important  }
@@ -40,9 +43,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Kano', 'Kano'; }
+html, button, input, select, textarea { font-family: ¨Kano¨, sans-serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 10; font-family: 'Kano', }
+body { margin: 10; font-family: ¨Kano¨, }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -75,7 +78,7 @@ mark { background: #ff0; color: #000; }
 /* * Addresses margins set differently in IE 6/7. */
 p, pre { margin: 1em 0; }
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
-code, kbd, pre, samp { font-family: 'Kano', serif; _font-family: 'Kano', monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: ¨Kano¨, serif; _font-family: ¨Kano¨, monospace; font-size: 1em; }
 /* * Improves readability of pre-formatted text in all browsers. */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 /* * Addresses CSS quotes not supported in IE 6/7. */
@@ -406,7 +409,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 
 .cd-primary-nav {
   /* by default it's hidden */
-  font-family: 'Kano';
+  font-family: ¨Kano¨;
   position: fixed;
   left: 0;
   top: 0;
