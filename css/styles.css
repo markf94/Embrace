@@ -194,7 +194,7 @@ h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: blo
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
-.light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
+.light-box {height: 250px; background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
 .light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); -moz-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
@@ -795,9 +795,9 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0; }
-footer { background-color: rgba(16, 72, 135, 1); padding: 40px 0 10px; }
+footer { background-color: rgba(16, 72, 135, 0.9); padding: 40px 0 10px; }
 footer p { color: #fff; }
-ul.legals { list-style: none; color: #fff; line-height: 25px; }
+ul.legals { list-style: none; color: #fff; font-size: : 18px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
