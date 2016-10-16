@@ -249,7 +249,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 }
 
 .cd-nav-trigger {
-  top: 50px;
+  top: 18px;
   right: 5%;
   height: 60px;
   width: 60px;
@@ -464,13 +464,41 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
     font-size: 2rem;
   }
 }
-@media only screen and (max-width: 640px) {
+/*smallest phones */
+@media only screen and (min-width: 300px) {
   .cd-primary-nav li {
     margin: 1.6em 0;
   }
   .cd-primary-nav a {
-    font-size: 28px;
-    font-size: 1.6rem;
+    font-size: 25px;
+  }
+  .cd-primary-nav {
+      top: 30px;
+  }
+}
+/*big phones*/
+@media only screen and (min-width: 350px) {
+  .cd-primary-nav li {
+    margin: 1.6em 0;
+  }
+  .cd-primary-nav a {
+    font-size: 25px;
+  }
+  .cd-primary-nav {
+      top: 100px;
+  }
+}
+
+/*small tablet */
+@media only screen and (min-width: 700px) {
+  .cd-primary-nav li {
+    margin: 1.6em 0;
+  }
+  .cd-primary-nav a {
+    font-size: 25px;
+  }
+  .cd-primary-nav {
+      top: 100px;
   }
 }
 
@@ -595,7 +623,8 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Intro2
 ========================================================================== */
-.intro2 { background: url('../img/background.jpeg') no-repeat center center; }
+
+.intro2 { background: url('../img/background.jpeg') no-repeat center center;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .intro2 p { margin: 50px 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 
