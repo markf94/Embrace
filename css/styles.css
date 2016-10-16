@@ -10,6 +10,11 @@ HTML5 display definitions
     src: url('../fonts/Kano.otf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'KHB'; /*a name to be used later*/
+    src: url('../fonts/Kh-Battambang.ttf'); /*URL to font*/
+}
+
 .row-bottom-margin { margin-bottom:1px !important;margin-top:1px !important  }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
@@ -35,9 +40,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Kano', sans-serif; }
+html, button, input, select, textarea { font-family: 'Kano', 'Kano'; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 10; font-family: 'Kano', sans-serif; }
+body { margin: 10; font-family: 'Kano', }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -52,7 +57,7 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 
-h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
+h1 { font-size: 2em; margin: 0.67em 0; color: #fff;font-weight: bold;}
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
@@ -70,7 +75,7 @@ mark { background: #ff0; color: #000; }
 /* * Addresses margins set differently in IE 6/7. */
 p, pre { margin: 1em 0; }
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
-code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'Kano', monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: 'Kano', serif; _font-family: 'Kano', monospace; font-size: 1em; }
 /* * Improves readability of pre-formatted text in all browsers. */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 /* * Addresses CSS quotes not supported in IE 6/7. */
@@ -181,7 +186,7 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: rgba(16, 72, 135, 0.7); text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+p { color: #353535; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
@@ -401,7 +406,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 
 .cd-primary-nav {
   /* by default it's hidden */
-  font-family: @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+  font-family: 'Kano';
   position: fixed;
   left: 0;
   top: 0;
@@ -573,18 +578,28 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/KohKarang.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
+.hero { background: url('../img/KohKarang.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 5px 0 250px 0; height: auto; }
+.hero h1 { font-size: 50px; letter-spacing: 12px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { letter-spacing: 1px; }
   .learn-more-btn { background: rgba(16, 72, 135, 0.7); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); -moz-box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); box-shadow: 0px 3px 0px 0px rgba(16, 72, 135, 0.7); margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(16, 72, 135, 0.7); color: #fff; }
+
 /* ==========================================================================
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 50px 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+
+/* ==========================================================================
+Intro2
+========================================================================== */
+.intro2 { background: url('../img/background.jpeg') no-repeat center center;}
+.intro2 p { margin: 50px 0 0; }
+h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+
+
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -600,11 +615,21 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/KohKarang.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background: url('../img/boldideas.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
+/* ==========================================================================
+Swag2
+========================================================================== */
+.swag2 { background: url('../img/kohmap/kohmap.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 5px 0 250px 0; height: auto; }
+.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
 /* ==========================================================================
 Portfolio
 ========================================================================== */
@@ -652,7 +677,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn:hover, .social-btn:focus { background: rgba(16, 72, 135, 0.5); color: #fff; }
 .social { margin-top: 25px }
 
-.team2 { background: url('');  no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
+.team2 { background: #fff ;  no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 100px 0; height: auto;}
 .team2 img { margin-bottom: 40px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
@@ -663,7 +688,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 /* ==========================================================================
 PPF
 ========================================================================== */
-.ppf { background: url('../img/timeline.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 265px 0 300px 0; height: auto; }
+.ppf { background: url('../img/boldideas.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 565px 0 400px 0; height: auto; }
 .ppf img { margin-bottom: 40px; }
 p.ppf {width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none ;}
 .expandppf {width: 100px; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border: none ; }
@@ -947,7 +972,7 @@ Waypoints
     white-space: nowrap;
     text-align: center;
     position: relative;
-    background:#ddd
+    background:#ddd;
 }
 #custom_carousel .controls li {
     display: table-cell;
@@ -963,5 +988,5 @@ Waypoints
     display:block;
     font-size:100px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
 }
