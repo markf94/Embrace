@@ -186,7 +186,8 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: rgba(16, 72, 135, 0.7); text-decoration: none; }
-p { color: #353535; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+p { color: #353535; word-spacing: 1px; line-height: 25px; font-size: 18px; }
+.overview { color: #353535; word-spacing: 1px; line-height: 25px; font-size: 20px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
@@ -793,7 +794,7 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0; }
-footer { background-color: rgba(16, 72, 135, 0.7); padding: 40px 0 10px; }
+footer { background-color: rgba(16, 72, 135, 1); padding: 40px 0 10px; }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
