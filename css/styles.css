@@ -7,15 +7,12 @@ HTML5 display definitions
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
 @font-face {
     font-family: ¨Kano¨; /*a name to be used later*/
-    src: url('fonts/Kano.otf') format("opentype"); /*URL to font*/
+    src: url('../fonts/Kano.otf') format("opentype"); /*URL to font*/
 }
 
 @font-face {
     font-family: 'KHB'; /*a name to be used later*/
-    src: url('fonts/Kh-Battambang.ttf'); /*URL to font*/
-}
-p.customfont {
-	font-family: "Kano", "Open Sans";
+    src: url('../fonts/Kh-Battambang.ttf'); /*URL to font*/
 }
 
 .row-bottom-margin { margin-bottom:1px !important;margin-top:1px !important  }
