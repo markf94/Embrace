@@ -252,10 +252,10 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 }
 
 .cd-nav-trigger {
-  top: 18px;
+  top: 50px;
   right: 5%;
-  height: 54px;
-  width: 54px;
+  height: 60px;
+  width: 60px;
   z-index: 5;
   /* image replacement */
   overflow: hidden;
@@ -275,7 +275,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   display: inline-block;
-  width: 18px;
+  width: 28px;
   height: 3px;
   background-color: #ffffff;
   z-index: 10;
