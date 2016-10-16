@@ -40,9 +40,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Kano', sans-serif; }
+html, button, input, select, textarea { font-family: 'Kano', 'Kano'; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 10; font-family: 'Kano', sans-serif; }
+body { margin: 10; font-family: 'Kano', }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -75,7 +75,7 @@ mark { background: #ff0; color: #000; }
 /* * Addresses margins set differently in IE 6/7. */
 p, pre { margin: 1em 0; }
 /* * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
-code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'Kano', monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: 'Kano', serif; _font-family: 'Kano', monospace; font-size: 1em; }
 /* * Improves readability of pre-formatted text in all browsers. */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 /* * Addresses CSS quotes not supported in IE 6/7. */
@@ -406,7 +406,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 
 .cd-primary-nav {
   /* by default it's hidden */
-  font-family: @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+  font-family: 'Kano';
   position: fixed;
   left: 0;
   top: 0;
@@ -620,6 +620,16 @@ Swag
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
+/* ==========================================================================
+Swag2
+========================================================================== */
+.swag2 { background: url('../img/kohmap/kohmap.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 5px 0 250px 0; height: auto; }
+.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
 /* ==========================================================================
 Portfolio
 ========================================================================== */
@@ -667,7 +677,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn:hover, .social-btn:focus { background: rgba(16, 72, 135, 0.5); color: #fff; }
 .social { margin-top: 25px }
 
-.team2 { background: url('');  no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
+.team2 { background: #fff ;  no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 100px 0; height: auto;}
 .team2 img { margin-bottom: 40px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
