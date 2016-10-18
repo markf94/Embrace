@@ -3596,7 +3596,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-pills > li > a {
   font-weight: bold;
-  color: #fff;
+  color: rgba(16, 72, 135, 0.7);
   font-size: 33px !important;
   text-align: justify;;
   border-radius: 10px;

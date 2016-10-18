@@ -202,6 +202,7 @@ h2::after { content: " "; border: solid 2px rgba(16, 72, 135, 0.7); display: blo
 .nopadding { padding: 0; }
 .inner { padding-top: 10px; }
 .inner2 { padding-top: 10px;}
+h3 { font-size: 60px; color: #fff; text-transform: uppercase; font-weight: bold; }
 
 /* ==========================================================================
 Navigation
@@ -683,7 +684,7 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 Intro2
 ========================================================================== */
 
-.intro2 { background: url('../img/background.jpeg') no-repeat center center;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.intro2 { background: #f3f5f8; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .intro2 p { margin: 50px 0 0; }
 h1.arrow { font-size: 13px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 
@@ -695,15 +696,15 @@ Features
 .shadow { text-shadow: rgba(16, 72, 135, 0.7) 1px 1px, rgba(16, 72, 135, 0.7) 2px 2px, rgba(16, 72, 135, 0.7) 3px 3px, rgba(16, 72, 135, 0.7) 4px 4px, rgba(16, 72, 135, 0.7) 5px 5px, rgba(16, 72, 135, 0.7) 6px 6px, rgba(16, 72, 135, 0.7) 7px 7px, rgba(16, 72, 135, 0.7) 8px 8px, rgba(16, 72, 135, 0.7) ;}
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: rgba(16, 72, 135, 0.7); border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 /* ==========================================================================
-iPhone Section
+sponsor Section
 ========================================================================== */
-.iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
+.sponsor { width: 50%; background: #fff; float: left; height: 100%; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../img/boldideas.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 100px 0; }
+.swag { background: url('../img/boldideas.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
 .swag h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 45px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
@@ -712,9 +713,18 @@ Swag
 /* ==========================================================================
 Swag2
 ========================================================================== */
-.swag2 { background: url('../img/kohmap/kohmap.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 5px 0 250px 0; height: auto; }
-.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
-.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.swag2 { background: url('../img/kohmap/above.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag2 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 span { display: block; font-size: 45px; margin-top: 20px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
+/* ==========================================================================
+Swag3
+========================================================================== */
+.swag3 { background: url('../img/background.jpeg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
+.swag3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
+.swag3 h1 span { display: block; font-size: 45px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
 
@@ -815,7 +825,7 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/partner/framed.jpg') no-repeat center center; background-position: 0px 0px 0px 00PX  ; height: 100%; }
 
 .grow {
   padding: 5px 5px 5px 5px;
