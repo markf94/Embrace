@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="/home/momo/Documents/Embrace/htdocs/img/partner/sponsors"
+   inkscape:export-filename="/home/momo/Documents/Embrace/htdocs/img/partner/sponsors2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="drawing.svg">
@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-95"
-     inkscape:cy="520"
+     inkscape:zoom="0.7"
+     inkscape:cx="209.63507"
+     inkscape:cy="531.87156"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -57,8 +57,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       y="431.79074"
-       x="70.857132"
+       y="458.93359"
+       x="26.571434"
        id="image3344"
        xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcg
 SlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwK
@@ -289,10 +289,12 @@ D//Z
        style="image-rendering:optimizeQuality"
        preserveAspectRatio="none"
        height="144"
-       width="624" />
+       width="624"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
-       y="608.29083"
-       x="278"
+       y="634.00513"
+       x="325.14285"
        id="image3355"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUQAAABHCAMAAABI187uAAAAw1BMVEX///+6urmX/AK5ubiT/AC2
 trW9vbzGxsXKysn4+PjCwsHO/pPi4uKy/WX19fWO/ADv7++7/V/l5eXa/aTQ0NCi/Drk5OSl/Rn9
@@ -358,10 +360,12 @@ v5wn/xMgSSS9h8O9C6ifRBpH/4kcCnXukE0pmj4Ep8UPJNSx7C6cd7AOvaX2m2L3/ELxOvqMgyhQ
        style="image-rendering:optimizeQuality"
        preserveAspectRatio="none"
        height="71"
-       width="324" />
+       width="324"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <image
-       y="219.39075"
-       x="135.05714"
+       y="246.5336"
+       x="90.771446"
        id="image3366"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA6UAAAFiCAYAAAAOU35jAAAACXBIWXMAABcSAAAXEgFnn9JSAAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAqvJJREFUeNrsvV2sXEWWLhg2dmHj
@@ -1137,6 +1141,8 @@ QflXvr7HmpuNCwaDwWAwGAyGJP6/AAMAoRYRFOFqizcAAAAASUVORK5CYII=
        style="image-rendering:optimizeQuality"
        preserveAspectRatio="none"
        height="212.39999"
-       width="559.79999" />
+       width="559.79999"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
