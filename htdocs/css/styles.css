@@ -724,7 +724,7 @@ Swag2
 /* ==========================================================================
 Swag3
 ========================================================================== */
-.swag3 { background: url('../img/Banners/cambodiaboat.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
+.swag3 { background: url('../img/background.jpeg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
 .swag3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
 .swag3 h1 span { display: block; font-size: 45px; margin-top: 20px; }
 .swag3 h2 { color: #fff; font-size: 16px; text-transform: uppercase; letter-spacing: 5px; }
@@ -734,10 +734,20 @@ Swag3
 /* ==========================================================================
 Swag4
 ========================================================================== */
-.swag4 { background: url('../img/Banners/fishermen.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
+.swag4 { background: url('../img/Banners/cambodiaboat.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
 .swag4 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
 .swag4 h1 span { display: block; font-size: 45px; margin-top: 20px; }
 .swag4 h2 { color: #fff; font-size: 16px; text-transform: uppercase; letter-spacing: 5px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
+
+/* ==========================================================================
+Swag5
+========================================================================== */
+.swag5 { background: url('../img/Banners/fishermen.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
+.swag5 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
+.swag5 h1 span { display: block; font-size: 45px; margin-top: 20px; }
+.swag5 h2 { color: #fff; font-size: 16px; text-transform: uppercase; letter-spacing: 5px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(16, 72, 135, 0.7); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(16, 72, 135, 0.7); }
 
