@@ -10,7 +10,7 @@
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
 }
-/* Responsive nav kicks in */
+* Responsive nav kicks in */
 @media screen and (max-width:991px) {
 
 	.header-nav {
