@@ -1008,6 +1008,9 @@ Waypoints
 
   .swag { margin-top: 50px;}
 
+  .nav-pills > li > a {
+   margin-left: 20%;
+ }
 }
 
 /*smallest phones (landscape)*/
@@ -1030,6 +1033,10 @@ Waypoints
   .mobileadjust { width: 90%;
     height: 90%;
   }
+
+  .nav-pills > li > a {
+   margin-left: 35%;
+ }
 }
 
 /*larger phones (portrait)*/
@@ -1052,6 +1059,10 @@ Waypoints
   .mobileadjust { width: 95%;
     height: 95%;
   }
+
+  .nav-pills > li > a {
+   margin-left: 22.5%;
+ }
 }
 
 /*larger phones (portrait)*/
@@ -1075,6 +1086,10 @@ Waypoints
   .mobileadjust { width: 95%;
     height: 95%;
   }
+
+  .nav-pills > li > a {
+   margin-left: 15%;
+ }
 }
 
 
