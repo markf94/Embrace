@@ -566,12 +566,17 @@ h1.arrow { font-size: 13px; text-transform: uppercase; color: #353535; letter-sp
 Features
 ========================================================================== */
 .features-wrapper, .team-wrapper, .ppf-wrapper { margin: 70px 0 0; }
+.img-circle{border-radius: 50%;width: 122px;
+height: auto;
+margin: 0 auto;
+vertical-align: middle;
+overflow: hidden;}
 .shadow { text-shadow: rgba(16, 72, 135, 0.7) 1px 1px, rgba(16, 72, 135, 0.7) 2px 2px, rgba(16, 72, 135, 0.7) 3px 3px, rgba(16, 72, 135, 0.7) 4px 4px, rgba(16, 72, 135, 0.7) 5px 5px, rgba(16, 72, 135, 0.7) 6px 6px, rgba(16, 72, 135, 0.7) 7px 7px, rgba(16, 72, 135, 0.7) 8px 8px, rgba(16, 72, 135, 0.7) ;}
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: rgba(16, 72, 135, 0.7); border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 /* ==========================================================================
 sponsor Section
 ========================================================================== */
-.iphone { width: 50%; background: #fff; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
+.iphone { width: 50%; background: #fff; float: left ; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 /* ==========================================================================
@@ -720,7 +725,7 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../img/partner/sponsors2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 .grow {
   padding: 5px 5px 5px 5px;
@@ -1197,7 +1202,7 @@ Waypoints
     height: 95%;
   }
 
-  .wp3 { background: url('../img/partner/sponsors2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+  .wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 }
 
@@ -1222,7 +1227,7 @@ Waypoints
   .mobileadjust { width: 95%;
     height: 95%;
   }
-  .wp3 { background: url('../img/partner/sponsors2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+  .wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 }
 
