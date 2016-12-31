@@ -561,6 +561,13 @@ Intro2
 .intro2 p { margin: 50px 0 0; }
 h1.arrow { font-size: 13px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 
+/* ==========================================================================
+Projects
+========================================================================== */
+.projects { background: rgba(16, 72, 135, 0.6); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.projects p { margin: 50px 0 0; }
+h1.arrow { font-size: 13px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+
 
 /* ==========================================================================
 Features
@@ -579,6 +586,9 @@ sponsor Section
 .iphone { width: 50%; background: #fff; float: left ; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
+.zoning { width: 50%; background: #fff; float: right ; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
+.zoningleft { width: 50%; background: #fff; float: left ; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
+
 /* ==========================================================================
 Swag
 ========================================================================== */
@@ -649,6 +659,7 @@ a.expand:hover {color: #fff}
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+.designsleft { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
 /* ==========================================================================
 Subscribe
 ========================================================================== */
@@ -726,6 +737,10 @@ Waypoints
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wpp1 { background: url('../img/projects/Seahorse-02.png') rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wpp12 { background: rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wpp2 { background: url('../img/projects/zoning-02.png') rgba(16, 72, 135, 0.5) no-repeat right center; background-position: 0px 0px 0px 00px  ; height: 100%;}
+.wpp22 { background: rgba(16, 72, 135, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 .grow {
   padding: 5px 5px 5px 5px;
