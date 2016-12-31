@@ -7,9 +7,52 @@
 <html>
 	<head>
 		<title>Spectral by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="A marine preservation project on the Cambodian island Koh Karang. We aim to find solutions in an embrace between man and nature, so that a sustainable symbiosis can be reestablished.">
+    <meta name="robots" content="index, follow">
+
+    <title>Embrace Cambodia</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cocoen.min.css" />
+    <link rel="shortcut icon" href="img/logoembrace.svg">
+    <link rel="icon" href="img/logoembrace.svg">
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/uiProgressButton.js"></script>
+    <script>
+      [].slice.call( document.querySelectorAll( '.progress-button' ) ).forEach( function( bttn, pos ) {
+        new UIProgressButton( bttn, {
+          callback : function( instance ) {
+            var progress = 0,
+              interval = setInterval( function() {
+                progress = Math.min( progress + Math.random() * 0.1, 1 );
+                instance.setProgress( progress );
+
+                if( progress === 1 ) {
+                  instance.stop( pos === 1 || pos === 3 ? -1 : 1 );
+                  clearInterval( interval );
+                }
+              }, 150 );
+          }
+        } );
+      } );
+    </script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -21,40 +64,57 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">Spectral</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
+						<h1><a href="index.html">Embrace Projects</a></h1>
+						<nav>
+	            <div class="container-fluid">
+	              <div class="row">
+	                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+
+	                  <!--<nav class="pull">
+	                    <ul class="top-nav">
+	                      <li><a href="#intro">Intro <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#features">Why - How - What <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#responsive">Koh Karang <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#portfolio">Embrace bold IDEAS <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#team">The Koh Karang Tribe <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#team">Embrace the past, present and future<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                      <li><a href="#contact">Get in Touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+	                    </ul>
+	                  </nav>-->
+
+	                  <nav>
+		                     <ul class="cd-primary-nav">
+	                         <li><a href="#whyhowwhat">Why - How - What</a></li>
+	                         <li><a href="#overview">Overview</a></li>
+	                         <li><a href="#sponsors">Koh Karang</a></li>
+	                         <!--<li><a href="#kohkarang">Koh Karang</a></li>-->
+	                         <li><a href="#tiles">Embrace bold Ideas</a></li>
+	                         <!--<li><a href="projects.html">Projects</a></li>-->
+	                         <li><a href="#pastpresentfuture">Embrace the past, present and future</a></li>
+	                          <li><a href="#team">The Koh Karang Tribe</a></li>
+	                         <li><a href="#contact">Get in Touch</a></li>
+		                    </ul>
+	                  </nav>
+	                </div>
+
+	              </div>
+	            </div>
+	          </nav>
 					</header>
 
 				<!-- Banner -->
+				  <main class="cd-content">
 					<section id="banner">
+						<div class="container">
+              <div class="row">
+                <div class="col-md-12-offset-12 col-lg-12-offset-12 col-xs-12-offset-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
 						<div class="inner">
-							<h2>Spectral</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
+							<div class="image"><img src="img/projects/Conserve1.png" alt="bann" /></div><div class="content">
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
-
-
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
@@ -87,6 +147,40 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<div class="cd-overlay-nav">
+			<span></span>
+			</div> <!-- cd-overlay-nav -->
+
+			<div class="cd-overlay-content">
+			<span></span>
+			</div> <!-- cd-overlay-content -->
+
+			<a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+
+			        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			        <!-- Include all compiled plugins (below), or include individual files as needed -->
+			        <script src="js/waypoints.min.js"></script>
+			        <script src="js/bootstrap.min.js"></script>
+			        <script src="js/scripts.js"></script>
+			        <script src="js/jquery.flexslider.js"></script>
+			        <script src="js/jquery.imagecomparison.js"></script>
+			        <script src="js/modernizr.js"></script>
+			        <script src="js/vendor/jquery.mobile-events.min.js"></script>
+			        <script src="js/cocoen.min.js"></script>
+			        <script src="js/velocity.min.js"></script>
+			        <script src="js/main.js"></script> <!-- Resource jQuery -->
+			        <script type="text/javascript" charset="utf-8">
+			  $(window).load(function() {
+			    $('.flexslider').flexslider();
+			  });
+			</script>
+			        <script>
+			        $('.cd-primary-nav a').on('click', function(){
+			          $('.cd-nav-trigger').click(); //bootstrap 2.x
+			          //$('.navbar-toggle').click() //bootstrap 3.x by Richard
+			}       );
+			        </script>
 
 	</body>
 </html>
