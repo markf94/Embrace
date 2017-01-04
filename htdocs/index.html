@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="A marine preservation project on the Cambodian island Koh Karang. We aim to find solutions in an embrace between man and nature, so that a sustainable symbiosis can be reestablished.">
-    <meta name="robots" content="index, follow">
 
-    <title>Embrace Cambodia</title>
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/cocoen.min.css" />
-    <link rel="shortcut icon" href="img/logoembrace.svg">
-    <link rel="icon" href="img/logoembrace.svg">
-    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-glyphicons.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/uiProgressButton.js"></script>
-    <script>
-      [].slice.call( document.querySelectorAll( '.progress-button' ) ).forEach( function( bttn, pos ) {
-        new UIProgressButton( bttn, {
-          callback : function( instance ) {
-            var progress = 0,
-              interval = setInterval( function() {
-                progress = Math.min( progress + Math.random() * 0.1, 1 );
-                instance.setProgress( progress );
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="A marine preservation project on the Cambodian island Koh Karang. We aim to find solutions in an embrace between man and nature, so that a sustainable symbiosis can be reestablished.">
+        <meta name="robots" content="index, follow">
 
-                if( progress === 1 ) {
-                  instance.stop( pos === 1 || pos === 3 ? -1 : 1 );
-                  clearInterval( interval );
-                }
-              }, 150 );
-          }
-        } );
-      } );
-    </script>
+        <title>Embrace Cambodia</title>
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/flexslider.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/queries.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/flexslider.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/queries.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/cocoen.min.css" />
+        <link rel="shortcut icon" href="img/logoembrace.svg">
+        <link rel="icon" href="img/logoembrace.svg">
+        <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-glyphicons.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/uiProgressButton.js"></script>
+        <script>
+            [].slice.call(document.querySelectorAll('.progress-button')).forEach(function(bttn, pos) {
+                new UIProgressButton(bttn, {
+                    callback: function(instance) {
+                        var progress = 0,
+                            interval = setInterval(function() {
+                                progress = Math.min(progress + Math.random() * 0.1, 1);
+                                instance.setProgress(progress);
+
+                                if (progress === 1) {
+                                    instance.stop(pos === 1 || pos === 3 ? -1 : 1);
+                                    clearInterval(interval);
+                                }
+                            }, 150);
+                    }
+                });
+            });
+        </script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-      </head>
-      <body id="top">
-        <header id="home">
-          <nav>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+    </head>
 
-                  <!--<nav class="pull">
+    <body id="top">
+        <header id="home">
+            <nav>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+
+                            <!--<nav class="pull">
                     <ul class="top-nav">
                       <li><a href="#intro">Intro <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
                       <li><a href="#features">Why - How - What <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
@@ -73,303 +75,303 @@
                     </ul>
                   </nav>-->
 
-                  <nav>
-	                     <ul class="cd-primary-nav">
-                         <li><a href="#whyhowwhat">Why - How - What</a></li>
-                         <li><a href="#overview">Overview</a></li>
-                         <li><a href="#sponsors">Koh Karang</a></li>
-                         <!--<li><a href="#kohkarang">Koh Karang</a></li>-->
-                         <li><a href="#tiles">Embrace bold Ideas</a></li>
-                         <!--<li><a href="projects.html">Projects</a></li>-->
-                         <li><a href="#pastpresentfuture">Embrace the past, present and future</a></li>
-                          <li><a href="#team">The Koh Karang Tribe</a></li>
-                         <li><a href="#contact">Get in Touch</a></li>
-	                    </ul>
-                  </nav>
-                </div>
+                            <nav>
+                                <ul class="cd-primary-nav">
+                                    <li><a href="#whyhowwhat">Why - How - What</a></li>
+                                    <li><a href="#overview">Overview</a></li>
+                                    <li><a href="#sponsors">Koh Karang</a></li>
+                                    <!--<li><a href="#kohkarang">Koh Karang</a></li>-->
+                                    <li><a href="#tiles">Embrace bold Ideas</a></li>
+                                    <!--<li><a href="projects.html">Projects</a></li>-->
+                                    <li><a href="#pastpresentfuture">Embrace the past, present and future</a></li>
+                                    <li><a href="#team">The Koh Karang Tribe</a></li>
+                                    <li><a href="#contact">Get in Touch</a></li>
+                                </ul>
+                            </nav>
+                        </div>
 
-              </div>
-            </div>
-          </nav>
-
-          <main class="cd-content">
-          <section class="hero" id="hero">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12-offset-12 col-lg-12-offset-12 col-xs-12-offset-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                    </div>
                 </div>
-              </div>
-               <!--<div class='btn-toolbar pull-left'>
+            </nav>
+
+            <main class="cd-content">
+                <section class="hero" id="hero">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12-offset-12 col-lg-12-offset-12 col-xs-12-offset-12 text-right navicon">
+                                <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                            </div>
+                        </div>
+                        <!--<div class='btn-toolbar pull-left'>
               <div id="progress-button" class="progress-button"><a href="#overview"><button><span>Donate</span></button></a></div>
             </div>-->
-              <div class="row">
-                <div class="col-md-12 text-center inner2">
-                  <br><br>
-                  <br><br>
-                <img class="animated sunrise2 delay-02s" src="img/emblogow.png" alt="Logo Embrace Cambodia" style="width:220px;height:220px;">
-                <p><br></p>
+                        <div class="row">
+                            <div class="col-md-12 text-center inner2">
+                                <br><br>
+                                <br><br>
+                                <img class="animated sunrise2 delay-02s" src="img/emblogow.png" alt="Logo Embrace Cambodia" style="width:220px;height:220px;">
+                                <p><br></p>
 
-              </div>
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown">EMBRACE CAMBODIA</h1>
-                  <br>
-                  <h3 class="animated fadeInDown">អភិរក្ស ​កម្ពុជា</h3>
-                  <p><br><br></p>
-                  <p><br><br></p>
-                  <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center inner">
+                            </div>
+                            <div class="col-md-8 col-md-offset-2 text-center inner">
+                                <h1 class="animated fadeInDown">EMBRACE CAMBODIA</h1>
+                                <br>
+                                <h3 class="animated fadeInDown">អភិរក្ស ​កម្ពុជា</h3>
+                                <p><br><br></p>
+                                <p><br><br></p>
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2 text-center inner">
 
-                    </div>
-                  <p><br><br></p>
-                  <p class="animated fadeInUp delay-05s"><em>REESTABLISHING THE SYMBIOSIS OF HUMAN AND NATURE</em></p>
-                  <p class="animated fadeInUp delay-1s"><em>A marine preservation project</em></p>
-                  <br><br>
-                </div>
-              </div>
-              <div class="row">
-                <p><br><br></p>
-              </div>
-              </div>
-          </section>
+                                    </div>
+                                    <p><br><br></p>
+                                    <p class="animated fadeInUp delay-05s"><em>REESTABLISHING THE SYMBIOSIS OF HUMAN AND NATURE</em></p>
+                                    <p class="animated fadeInUp delay-1s"><em>A marine preservation project</em></p>
+                                    <br><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p><br><br></p>
+                            </div>
+                        </div>
+                </section>
         </header>
-        <section class="features text-center section-padding" name = "whyhowwhat" id="whyhowwhat">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Embrace the environment through locally embedded solutions</h1>
-                <div class="features-wrapper">
-                  <div class="col-md-4 wp2">
-                    <div class="image">
-                        <img src="img/WHW/why300.png">
+        <section class="features text-center section-padding" name="whyhowwhat" id="whyhowwhat">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="arrow">Embrace the environment through locally embedded solutions</h1>
+                        <div class="features-wrapper">
+                            <div class="col-md-4 wp2">
+                                <div class="image">
+                                    <img src="img/WHW/why300.png">
+                                </div>
+                                <h2>Why</h2>
+                                <p>Facilitating a sustainable symbiosis between human and nature.</p>
+                            </div>
+                            <div class="col-md-4 wp2 delay-05s">
+                                <div class="image">
+                                    <img src="img/WHW/how300.png">
+                                </div>
+                                <h2>How</h2>
+                                <p>Create an inclusive platform for innovative ideas and practices.</p>
+                            </div>
+                            <div class="col-md-4 wp2 delay-1s">
+                                <div class="image">
+                                    <img src="img/WHW/what300.png">
+                                </div>
+                                <h2>What</h2>
+                                <p>Supporting Cambodia’s most vulnerable: shallow waters and its local fishermen.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
-                    <h2>Why</h2>
-                    <p>Facilitating a sustainable symbiosis between human and nature.</p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-05s">
-                    <div class="image">
-                      <img src="img/WHW/how300.png">
-                    </div>
-                    <h2>How</h2>
-                    <p>Create an inclusive platform for innovative ideas and practices.</p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-1s">
-                    <div class="image">
-                      <img src="img/WHW/what300.png">
-                    </div>
-                    <h2>What</h2>
-                    <p>Supporting Cambodia’s most vulnerable: shallow waters and its local fishermen.</p>
-                  </div>
-                  <div class="clearfix"></div>
                 </div>
-              </div>
             </div>
-          </div>
         </section>
 
-        <section class="intro text-center section-padding" name = "overview" id="overview">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">An Overview</h1>
-                <p>All around the world we are experiencing a rapid decline of our marine ecosystems. Due to unsustainable and often illegal fishing practices, the pressure on marine life is set for disaster. Especially in Cambodia, where environmental pressure, a lack of legal enforcement and scarcity of resources are added to the test, there is a direct need for action.
-                </br>
-                </br>
-                WE AIM TO FIND SOLUTIONS IN AN EMBRACE BETWEEN MAN AND NATURE, SO THAT A SUSTAINABLE SYMBIOSIS CAN BE REESTABLISHED.
-                </br>
-                </br>
-                At Embrace we stand for our consequences. We aim to dive deeper into the origins of the problem to provide support at the base.
-                We believe in an ever positive – holistic approach.
-                </br>
-                </br>
-                So, what is the real problem of Cambodia’s marine life?
-                For us, the problem is not the illegal fishing practices, neither can we blame the unsatisfiable market for fish, and we definitely don’t just blame the environment either.  For sure they are viable causes… but not the reason!
-                </br>
-                </br>
-                Our problem is the <a target="_blank" href="http://tedxtalks.ted.com/video/TEDxMidAtlantic-2011-Eldar-Shaf">SCARCITY PRINCIPLE</a>. Scarcity limits the accessibility to better solutions and drives unsustainable choices. It pushes the fishermen to fish illegally, it limits us to invest in protected areas and it creates a hungry market. In fact, it is the base of all our concerns.                </br>
-                </br>
-                But, luckily, our oceans contain a vastly abundant potential. With the right motivation, we can rediscover the treasures of the sea. Bold ideas will allow our local heroes to explore a sustainable way of living. We will use nature to solve nature’s problems and allow fisherman to collaborate in the process.
-                <br><br>
-                WANT TO KNOW WHAT EXACTLY THAT ENTAILS?
-                WE INVITE YOU TO JOIN OUR EMBRACE AND DISCOVER KOH KARANG.
-                <!--<a href="#">We invite you to join our Embrace and discover from past to future.</a></p></p>-->
-              </div>
+        <section class="intro text-center section-padding" name="overview" id="overview">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 wp1">
+                        <h1 class="arrow">An Overview</h1>
+                        <p>All around the world we are experiencing a rapid decline of our marine ecosystems. Due to unsustainable and often illegal fishing practices, the pressure on marine life is set for disaster. Especially in Cambodia, where environmental
+                            pressure, a lack of legal enforcement and scarcity of resources are added to the test, there is a direct need for action.
+                            </br>
+                            </br>
+                            WE AIM TO FIND SOLUTIONS IN AN EMBRACE BETWEEN MAN AND NATURE, SO THAT A SUSTAINABLE SYMBIOSIS CAN BE REESTABLISHED.
+                            </br>
+                            </br>
+                            At Embrace we stand for our consequences. We aim to dive deeper into the origins of the problem to provide support at the base. We believe in an ever positive – holistic approach.
+                            </br>
+                            </br>
+                            So, what is the real problem of Cambodia’s marine life? For us, the problem is not the illegal fishing practices, neither can we blame the unsatisfiable market for fish, and we definitely don’t just blame the environment either. For sure they are viable
+                            causes… but not the reason!
+                            </br>
+                            </br>
+                            Our problem is the <a target="_blank" href="http://tedxtalks.ted.com/video/TEDxMidAtlantic-2011-Eldar-Shaf">SCARCITY PRINCIPLE</a>. Scarcity limits the accessibility to better solutions and drives unsustainable choices. It
+                            pushes the fishermen to fish illegally, it limits us to invest in protected areas and it creates a hungry market. In fact, it is the base of all our concerns. </br>
+                            </br>
+                            But, luckily, our oceans contain a vastly abundant potential. With the right motivation, we can rediscover the treasures of the sea. Bold ideas will allow our local heroes to explore a sustainable way of living. We will use nature to solve nature’s problems
+                            and allow fisherman to collaborate in the process.
+                            <br><br> WANT TO KNOW WHAT EXACTLY THAT ENTAILS? WE INVITE YOU TO JOIN OUR EMBRACE AND DISCOVER KOH KARANG.
+                            <!--<a href="#">We invite you to join our Embrace and discover from past to future.</a></p></p>-->
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
         <section class="swag2 text-center" id="sponsors">
             <img class="mobileadjust" src="img/Banners/bannertext.png">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
         <section class="text-center" id="responsive">
-          <div class="container-fluid nopadding responsive-services">
-            <div class="wrapper">
-              <div class="iphone">
-                <div class="wp3"></div>
-              </div>
-              <div class="fluid-white"></div>
-            </div>
-            <div class="container designs">
-              <div class="row">
-                <div class="col-md-5 col-md-offset-7">
-                  <div id="servicesSlider">
-                    <ul class="slides">
-                      <li>
-                        <h1 class="arrow">WHAT HAPPENS ON KOH KARANG, DOESN’T STAY ON KOH KARANG…</h1>
-                        <p>Embrace has chosen Koh Karang as its homeground, the center from which our spirit can venture. It’s a small 200x80m island without running water, inhabitants or protection, but it’s FULL of potential.
-                          <br><br>
-                          Nevertheless, we work hard so that our ideas will grow beyond the borders of Koh Karang National Park. By creating a common fertile ground we aim to inspire the entire Kep region with alternatives. The island will be a crossing point between Ngo and corporation. We aim to invite and involve the local communities, to foster their understanding of the important value of marine sustainability. Furthermore, the Cambodian government lies right at the heart of our organization.
-                        </p>
-                      </li>
-                      <li>
-                        <h1 class="arrow">KOH KARANG : A COLLABORATIVE EFFORT.</h1>
-                        <p>
-                          We aim to co-develop sustainable ideas that benefit all and put them to the test. Therefor, Koh Karang aims to grow as a platform where the local community, NGOs, corporations, tourists and the government can interact on pressing social and environmental issues. We, together, aim to create an oasis where ideas can grow, an island that sees problems as opportunities.
-                          <br><br>
-                          WE INVITE YOU TO EXPLORE OUR PARTNERS.
-                          WITHOUT THEM, THERE WOULD NOT BE AN EMBRACE.</p>
-                      </li>
-                    </ul>
-                  </div>
+            <div class="container-fluid nopadding responsive-services">
+                <div class="wrapper">
+                    <div class="iphone">
+                        <div class="wp3"></div>
+                    </div>
+                    <div class="fluid-white"></div>
                 </div>
-              </div>
+                <div class="container designs">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-7">
+                            <div id="servicesSlider">
+                                <ul class="slides">
+                                    <li>
+                                        <h1 class="arrow">WHAT HAPPENS ON KOH KARANG, DOESN’T STAY ON KOH KARANG…</h1>
+                                        <p>Embrace has chosen Koh Karang as its homeground, the center from which our spirit can venture. It’s a small 200x80m island without running water, inhabitants or protection, but it’s FULL of potential.
+                                            <br><br> Nevertheless, we work hard so that our ideas will grow beyond the borders of Koh Karang National Park. By creating a common fertile ground we aim to inspire the entire Kep region with alternatives.
+                                            The island will be a crossing point between Ngo and corporation. We aim to invite and involve the local communities, to foster their understanding of the important value of marine sustainability. Furthermore,
+                                            the Cambodian government lies right at the heart of our organization.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h1 class="arrow">KOH KARANG : A COLLABORATIVE EFFORT.</h1>
+                                        <p>
+                                            We aim to co-develop sustainable ideas that benefit all and put them to the test. Therefore, Koh Karang aims to grow as a platform where the local community, NGOs, corporations, tourists and the government can interact on pressing social and environmental
+                                            issues. We, together, aim to create an oasis where ideas can grow, an island that sees problems as opportunities.
+                                            <br><br> WE INVITE YOU TO EXPLORE OUR PARTNERS. WITHOUT THEM, THERE WOULD NOT BE AN EMBRACE.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
         <section class="swag text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1><span><p class="mobilespace"></br></br></br></br></br></br></br></br></br></br></br></br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1><span><p class="mobilespace"></br></br></br></br></br></br></br></br></br></br></br></br>
                 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                 </br></br></br></br></br></br></br></br></br></br></br></br></br></p>We Embrace <u>bold IDEAS</u></h1>
-                <h2>An Overview of the Embrace projects</h2>
-                <a href="#tiles" class="down-arrow-btn" id="boldideabutton"><i class="fa fa-chevron-down"></i></a>
-              </div>
+                        <h2>An Overview of the Embrace projects</h2>
+                        <a href="#tiles" class="down-arrow-btn" id="boldideabutton"><i class="fa fa-chevron-down"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
-        <section class="portfolio text-center section-padding" name = "tiles" id="tiles">
-          <div class="container">
-            <div class="row">
-              <div id="portfolioSlider">
-                <ul class="slides">
-                  <li>
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/protect.jpeg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-hand-stop-o"></i><br>PROTECT</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>PROTECT</h2>
-                      <p>Develop Marine National Park Koh Karang</p>
-                      <p>A collaboration with the Cambodian MINISTRY OF ENVIRONMENT</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/conserve.jpeg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-hand-spock-o"></i><br>CONSERVE</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>CONSERVE</h2>
-                      <p>Implement conservational strategies of MARINE CONSERVATION CAMBODIA.</p>
-                      <p>ZONING &amp RESEARCH</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/grow.jpeg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-tree"></i><br>GROW</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>GROW</h2>
-                      <p>Pro-actively supporting the environment to be AWESOME.</p>
-                    </div>
-                  </li>
+        <section class="portfolio text-center section-padding" name="tiles" id="tiles">
+            <div class="container">
+                <div class="row">
+                    <div id="portfolioSlider">
+                        <ul class="slides">
+                            <li>
+                                <div class="col-md-4 wp4">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/protect.jpeg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-hand-stop-o"></i><br>PROTECT</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>PROTECT</h2>
+                                    <p>Develop Marine National Park Koh Karang</p>
+                                    <p>A collaboration with the Cambodian MINISTRY OF ENVIRONMENT</p>
+                                </div>
+                                <div class="col-md-4 wp4 delay-05s">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/conserve.jpeg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-hand-spock-o"></i><br>CONSERVE</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>CONSERVE</h2>
+                                    <p>Implement conservational strategies of MARINE CONSERVATION CAMBODIA.</p>
+                                    <p>ZONING &amp RESEARCH</p>
+                                </div>
+                                <div class="col-md-4 wp4 delay-1s">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/grow.jpeg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-tree"></i><br>GROW</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>GROW</h2>
+                                    <p>Pro-actively supporting the environment to be AWESOME.</p>
+                                </div>
+                            </li>
 
-                </ul>
-              </div>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
-        <section class="portfolio text-center " name = "tiles" id="tiles2">
-          <div class="container">
-            <div class="row">
-              <div id="portfolioSlider">
-                <ul class="slides">
+        <section class="portfolio text-center " name="tiles" id="tiles2">
+            <div class="container">
+                <div class="row">
+                    <div id="portfolioSlider">
+                        <ul class="slides">
 
-                  <li>
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/cooperate.jpg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-signing"></i><br>COOPERATE</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>COOPERATE</h2>
-                      <p>Generate alternative income for local fishermen</p>
-                    </div>
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/educate.jpeg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-mortar-board"></i><br>EDUCATE</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>EDUCATE</h2>
-                      <p>Intergrate schools, community-groups and fishermen in workshops</p>
+                            <li>
+                                <div class="col-md-4 wp4">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/cooperate.jpg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-signing"></i><br>COOPERATE</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>COOPERATE</h2>
+                                    <p>Generate alternative income for local fishermen</p>
+                                </div>
+                                <div class="col-md-4 wp4 delay-05s">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/educate.jpeg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-mortar-board"></i><br>EDUCATE</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>EDUCATE</h2>
+                                    <p>Intergrate schools, community-groups and fishermen in workshops</p>
 
+                                </div>
+                                <div class="col-md-4 wp4 delay-1s">
+                                    <div class="overlay-effect effects clearfix">
+                                        <div class="img">
+                                            <img src="img/titles/visit.jpeg" alt="Portfolio Item">
+                                            <div class="overlay">
+                                                <a class="expand"><i class="fa fa-hand-peace-o"></i><br>VISIT</a>
+                                                <a class="close-overlay hidden">x</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2>VISIT</h2>
+                                    <p>Involve locals and foreigners in</p>
+                                    <p>sustainable eco-tourism</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/titles/visit.jpeg" alt="Portfolio Item">
-                          <div class="overlay">
-                            <a class="expand"><i class="fa fa-hand-peace-o"></i><br>VISIT</a>
-                            <a class="close-overlay hidden">x</a>
-                          </div>
-                        </div>
-                      </div>
-                      <h2>VISIT</h2>
-                      <p>Involve locals and foreigners in</p>
-                      <p>sustainable eco-tourism</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </div>
-          <br><br>
+            <br><br>
         </section>
 
-      <!--  <section class="swag text-center">
+        <!--  <section class="swag text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
@@ -381,271 +383,276 @@
         </section> -->
 
         <section class="swag3 text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1><span>EMBRACE THROUGH TIME</h1>
-                <h2>we learn from our past – embrace our present – invite you to be part of our future</h2>
-                <a href="#pastpresentfuture" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
-              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1><span>EMBRACE THROUGH TIME</h1>
+                        <h2>we learn from our past – embrace our present – invite you to be part of our future</h2>
+                        <a href="#pastpresentfuture" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
-        <section class="intro2" name = "pastpresentfuture" id="pastpresentfuture">
-          <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <br><br>
-              <br><br>
-              <ul class="nav nav-pills nav-justified">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active" id="past"><a href="#">THE PAST</a></li>
-                  <li data-target="#myCarousel" data-slide-to="1" id="present"><a href="#">THE PRESENT</a></li>
-                  <li data-target="#myCarousel" data-slide-to="2"id="future"><a href="#">THE FUTURE</a></li>
-                </ul>
+        <section class="intro2" name="pastpresentfuture" id="pastpresentfuture">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <br><br>
+                    <br><br>
+                    <ul class="nav nav-pills nav-justified">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active" id="past"><a href="#">THE PAST</a></li>
+                        <li data-target="#myCarousel" data-slide-to="1" id="present"><a href="#">THE PRESENT</a></li>
+                        <li data-target="#myCarousel" data-slide-to="2" id="future"><a href="#">THE FUTURE</a></li>
+                    </ul>
 
-                </br>
-    <!-- Wrapper for slides -->
-                <div class="carousel-inner">
+                    </br>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
 
-                   <div class="item active">
-                     <div id="teamSlider">
-                       <ul class="slides">
+                        <div class="item active">
+                            <div id="teamSlider">
+                                <ul class="slides">
 
-                         <li>
-                           <div class="col-md-4 wp4">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/2.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa"></i><br></a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/12.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Thamakiri school director receives teaching materials</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
+                                    <li>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/2.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa"></i><br></a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/12.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Thamakiri school director receives teaching materials</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                           <div class="col-md-4 wp4 delay-05s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/4.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Farmers help each other to put compost on their fields in the Community Farm</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </li>
-                         <li>
-                           <div class="col-md-4 wp4">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/13.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Pregnant women takes water from well constructed with project support  </a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4 delay-05s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/7.png" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Community Map Chamcar Bei</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4 delay-1s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/8.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Examination exercise Motor Repair training</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </li>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/4.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Farmers help each other to put compost on their fields in the Community Farm</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/13.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Pregnant women takes water from well constructed with project support  </a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/7.png" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Community Map Chamcar Bei</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-1s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/8.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Examination exercise Motor Repair training</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                         <li>
-                           <div class="col-md-4 wp4">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/9.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Model Farmer demonstrates bread making to train other villagers</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4 delay-05s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/10.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa"></i><br>Family Dream family constructs <br>a new house</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4 delay-1s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/11.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Mrs Chove and her business</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </li>
+                                    <li>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/9.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Model Farmer demonstrates bread making to train other villagers</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/10.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa"></i><br>Family Dream family constructs <br>a new house</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-1s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/11.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Mrs Chove and her business</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                         <li>
+                                    <li>
 
-                           <div class="col-md-4 wp4 delay-05s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/15.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa"></i><br>CBO leaders study concepts of sustainable development</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                           <div class="col-md-4 wp4 delay-1s">
-                             <div class="overlay-effect effects clearfix">
-                               <div class="img">
-                                 <img src="img/ppf/past/16.jpg" alt="Portfolio Item">
-                                 <div class="overlay">
-                                   <a class="expand"><i class="fa "></i><br>Members collect contributions at Self Help Group meeting</a>
-                                   <a class="close-overlay hidden">x</a>
-                                 </div>
-                               </div>
-                             </div>
-                           </div>
-                         </li>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/15.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa"></i><br>CBO leaders study concepts of sustainable development</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-1s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/past/16.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>Members collect contributions at Self Help Group meeting</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                        </ul>
+                                </ul>
 
-                     </div>
-                  </div><!-- End Item -->
-
-
-                  <div class="item">
-                    <div id="portfolioSlider">
-                      <ul class="slides">
-
-                        <li>
-                          <div class="col-md-4 wp4">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/titles/cooperate.jpg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand"><i class="fa "></i><br>COOPERATE</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-4 wp4 delay-05s">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/ppf/test2.jpg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand" href="#team"><i class="fa "></i><br>THE KOH KARANG TRIBE</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
+                        </div>
+                        <!-- End Item -->
+
+
+                        <div class="item">
+                            <div id="portfolioSlider">
+                                <ul class="slides">
+
+                                    <li>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/titles/cooperate.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa "></i><br>COOPERATE</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/test2.jpg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand" href="#team"><i class="fa "></i><br>THE KOH KARANG TRIBE</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-1s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/localheroes2.jpeg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa fa"></i><br>LOCAL HEROES</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                          </div>
-                          <div class="col-md-4 wp4 delay-1s">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/ppf/localheroes2.jpeg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand"><i class="fa fa"></i><br>LOCAL HEROES</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <div>
+                                <ul class="slides">
+
+                                    <li>
+                                        <div class="col-md-4 wp4">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/titles/protect.jpeg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa fa-hand-stop-o"></i><br>PROTECT</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-05s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/titles/educate.jpeg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa fa-mortar-board"></i><br>EDUCATE</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 wp4 delay-1s">
+                                            <div class="overlay-effect effects clearfix">
+                                                <div class="img">
+                                                    <img src="img/ppf/donate.jpeg" alt="Portfolio Item">
+                                                    <div class="overlay">
+                                                        <a class="expand"><i class="fa fa-dollar"></i><br>DONATE</a>
+                                                        <a class="close-overlay hidden">x</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
-                          </div>
-                        </li>
-                      </ul>
+                        </div>
+                        <!-- End Item -->
+
                     </div>
-                  </div><!-- End Item -->
+                    <!-- End Carousel Inner -->
 
-                  <div class="item">
-                    <div>
-                      <ul class="slides">
-
-                        <li>
-                          <div class="col-md-4 wp4">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/titles/protect.jpeg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand"><i class="fa fa-hand-stop-o"></i><br>PROTECT</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4 wp4 delay-05s">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/titles/educate.jpeg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand"><i class="fa fa-mortar-board"></i><br>EDUCATE</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4 wp4 delay-1s">
-                            <div class="overlay-effect effects clearfix">
-                              <div class="img">
-                                <img src="img/ppf/donate.jpeg" alt="Portfolio Item">
-                                <div class="overlay">
-                                  <a class="expand"><i class="fa fa-dollar"></i><br>DONATE</a>
-                                  <a class="close-overlay hidden">x</a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div><!-- End Item -->
-
-                </div><!-- End Carousel Inner -->
-
-              </div><!-- End Carousel -->
-              <br><br>
-              <br><br>
+                </div>
+                <!-- End Carousel -->
+                <br><br>
+                <br><br>
             </div>
             </br>
         </section>
 
-      <!-- <section class="swag text-center">
+        <!-- <section class="swag text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
@@ -667,151 +674,162 @@
             </div>
           </div>
         </section>-->
-       <section class="swag4 text-center">
-         <div class="container">
-           <div class="row">
-             <div class="col-md-8 col-md-offset-2">
-               <h1><span><em> </em> </h1>
-             </div>
-           </div>
-         </div>
-       </section>
-
-
-        <section class="team2 text-center " name = "team" id="team">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Embrace Us</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="team-wrapper">
-                <div id="teamSlider">
-                  <ul class="slides">
-                    <li>
-
-                      <div class="col-md-4 wp5">
-                        <img class="img-circle" src="img/Gilles.png">
-                        <h2>Gilles Vromman</h2>
-                        <p>Gilles is our driving engine. His enthusiasm leads us to other planets, while his innovative business approach brings us back to our own. An idealist that commits to making dreams come true. Challenges are daily food for the wolf of our tribe. And he is always hungry.</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a href="mailto: gilles@embracecambodia.com" class="social-btn"><i class="fa fa-gears"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4 wp5 delay-05s">
-                        <img class="img-circle" src="img/Elena.png">
-                        <h2>Elena Gogna</h2>
-                        <p>Elena is our all but geeky scientist. She’s a potent mixture of a curious social butterfly and a strong lioness. This Italian beauty manages to rock any adventure with unexpected moves and a limitless smile. It is her generous embrace that keeps our tribe up and going…</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a class="social-btn"><i class="fa fa-flask"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 wp5 delay-1s">
-                        <img class="img-circle" src="img/jefmoons.png">
-                        <h2>Jef Moons</h2>
-                        <p>Jef is the wiseman of the pack. His luggage is heavy with experience but he drags it along with a youthful spirit. His relentless drive to define purposeful business based on social-, environmental- and financial capital is the source of inspiration that feeds all of our embraces…</p>
-                        <div class="social">
-                          <ul class="social-buttons">
-                            <li><a class="social-btn"><i class="fa fa-lightbulb-o"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </li>
-
-                  </ul>
+        <section class="swag4 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1><span><em> </em> </h1>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </section>
+
+
+        <section class="team2 text-center " name="team" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="arrow">Embrace Us</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="team-wrapper">
+                        <div id="teamSlider">
+                            <ul class="slides">
+                                <li>
+
+                                    <div class="col-md-4 wp5">
+                                        <img class="img-circle" src="img/Gilles.png">
+                                        <h2>Gilles Vromman</h2>
+                                        <p>Gilles is our driving engine. His enthusiasm leads us to other planets, while his innovative business approach brings us back to our own. An idealist that commits to making dreams come true. Challenges are daily
+                                            food for the wolf of our tribe. And he is always hungry.</p>
+                                        <div class="social">
+                                            <ul class="social-buttons">
+                                                <li><a href="mailto: gilles@embracecambodia.com" class="social-btn"><i class="fa fa-gears"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 wp5 delay-05s">
+                                        <img class="img-circle" src="img/Elena.png">
+                                        <h2>Elena Gogna</h2>
+                                        <p>Elena is our all but geeky scientist. She’s a potent mixture of a curious social butterfly and a strong lioness. This Italian beauty manages to rock any adventure with unexpected moves and a limitless smile. It
+                                            is her generous embrace that keeps our tribe up and going…</p>
+                                        <div class="social">
+                                            <ul class="social-buttons">
+                                                <li><a class="social-btn"><i class="fa fa-flask"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 wp5 delay-1s">
+                                        <img class="img-circle" src="img/jefmoons.png">
+                                        <h2>Jef Moons</h2>
+                                        <p>Jef is the wiseman of the pack. His luggage is heavy with experience but he drags it along with a youthful spirit. His relentless drive to define purposeful business based on social-, environmental- and financial
+                                            capital is the source of inspiration that feeds all of our embraces…</p>
+                                        <div class="social">
+                                            <ul class="social-buttons">
+                                                <li><a class="social-btn"><i class="fa fa-lightbulb-o"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="swag5 text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h1><span><em> </em> </h1>
-              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1><span><em> </em> </h1>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
-        <section class="dark-bg text-center section-padding contact-wrap" name = "contact" id="contact">
-          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Drop us a line</h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>Pelgrimstraat 4 (bus 10)<br>2000, Antwerpen (BE)</p>
+        <section class="dark-bg text-center section-padding contact-wrap" name="contact" id="contact">
+            <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="arrow">Drop us a line</h1>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+32 495 172 404</p>
+                <div class="row contact-details">
+                    <div class="col-md-4">
+                        <div class="light-box box-hover">
+                            <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                            <p>Pelgrimstraat 4 (bus 10)<br>2000, Antwerpen (BE)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="light-box box-hover">
+                            <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                            <p>+32 495 172 404</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="light-box box-hover">
+                            <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                            <p><a href="mailto: gilles@embracecambodia.com">gilles@embracecambodia.com</a></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="light-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="mailto: gilles@embracecambodia.com">gilles@embracecambodia.com</a></p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="social-buttons">
+                            <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </section>
         <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3">
-                <ul class="legals">
-                  <!--<li><a href="#">Terms &amp; Conditions</a></li>-->
-                  <li><p><a href="disclaimer.pdf" download="disclaimer">Disclaimer</a></p></li><!--<a href="#">Disclaimer</a> -->
-                </ul>
-              </div>
-              <div class="col-sm-offset-7">
-                <ul class="legals">
-                  <!--<li><a href="#">Terms &amp; Conditions</a></li>-->
-                  <li><p>Inspired by <a href="http://www.peterfinlan.com/">Peter Finlan</a> implemented by <a href="http://macademia.guru"><em>Macademia</em></a></p></li><!--<a href="#">Disclaimer</a> -->
-                </ul>
-              </div>
-              <!--<div class="col-md-6 credit">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <ul class="legals">
+                            <!--<li><a href="#">Terms &amp; Conditions</a></li>-->
+                            <li>
+                                <p><a href="disclaimer.pdf" download="disclaimer">Disclaimer</a></p>
+                            </li>
+                            <!--<a href="#">Disclaimer</a> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-offset-7">
+                        <ul class="legals">
+                            <!--<li><a href="#">Terms &amp; Conditions</a></li>-->
+                            <li>
+                                <p>Inspired by <a href="http://www.peterfinlan.com/">Peter Finlan</a> implemented by <a href="http://macademia.guru"><em>Macademia</em></a></p>
+                            </li>
+                            <!--<a href="#">Disclaimer</a> -->
+                        </ul>
+                    </div>
+                    <!--<div class="col-md-6 credit">
                 <p>Inspired by <a href="http://www.peterfinlan.com/">Peter Finlan</a> implemented by <a href="http://macademia.guru"><em>Macademia</em></a></p>
               </div>-->
+                </div>
             </div>
-          </div>
         </footer>
-</main>
+        </main>
 
-<div class="cd-overlay-nav">
-<span></span>
-</div> <!-- cd-overlay-nav -->
+        <div class="cd-overlay-nav">
+            <span></span>
+        </div>
+        <!-- cd-overlay-nav -->
 
-<div class="cd-overlay-content">
-<span></span>
-</div> <!-- cd-overlay-content -->
+        <div class="cd-overlay-content">
+            <span></span>
+        </div>
+        <!-- cd-overlay-content -->
 
-<a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
+        <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -825,17 +843,19 @@
         <script src="js/vendor/jquery.mobile-events.min.js"></script>
         <script src="js/cocoen.min.js"></script>
         <script src="js/velocity.min.js"></script>
-        <script src="js/main.js"></script> <!-- Resource jQuery -->
+        <script src="js/main.js"></script>
+        <!-- Resource jQuery -->
         <script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider();
-  });
-</script>
-        <script>
-        $('.cd-primary-nav a').on('click', function(){
-          $('.cd-nav-trigger').click(); //bootstrap 2.x
-          //$('.navbar-toggle').click() //bootstrap 3.x by Richard
-}       );
+            $(window).load(function() {
+                $('.flexslider').flexslider();
+            });
         </script>
-      </body>
-    </html>
+        <script>
+            $('.cd-primary-nav a').on('click', function() {
+                $('.cd-nav-trigger').click(); //bootstrap 2.x
+                //$('.navbar-toggle').click() //bootstrap 3.x by Richard
+            });
+        </script>
+    </body>
+
+</html>
