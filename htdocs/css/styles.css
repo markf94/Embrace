@@ -431,6 +431,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
   text-align: center;
   text-transform: capitalize;
 }
+
 .cd-primary-nav a {
   font-size: 50px;
   -webkit-font-smoothing: antialiased;

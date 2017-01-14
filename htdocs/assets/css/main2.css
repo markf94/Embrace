@@ -3283,8 +3283,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
     -ms-justify-content: center;
     justify-content: center;
     cursor: default;
-    height: 100vh;
-    min-height: 35em;
+    height: 30vh;
+    min-height: 25em;
     overflow: hidden;
     position: relative;
     text-align: center;

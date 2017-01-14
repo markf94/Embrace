@@ -2115,12 +2115,19 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
     -ms-order: 1;
     order: 1;
     border-radius: 0;
-    width: 40%;
+    width: 70%;
 }
 
 .spotlight .image img {
     border-radius: 0;
     width: 100%;
+    padding-right: 5em;
+}
+
+.spotlight .image2 img {
+    border-radius: 0;
+    width: 100%;
+    padding-left: 15em;
 }
 
 .spotlight .content {
@@ -3283,8 +3290,8 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
     -ms-justify-content: center;
     justify-content: center;
     cursor: default;
-    height: 100vh;
-    min-height: 35em;
+    height: 35vh;
+    min-height: 25em;
     overflow: hidden;
     position: relative;
     text-align: center;
