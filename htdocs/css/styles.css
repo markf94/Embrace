@@ -736,7 +736,7 @@ Waypoints
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .delay-1-5s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
-.wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp1 { background: url('../img/projects/Seahorse-02.png') rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp12 { background: rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp2 { background: url('../img/projects/zoning4.png') rgba(16, 72, 135, 0.5) no-repeat right center; background-position: 100px 100px 100px 100px  ; height: 100%;}
@@ -1217,7 +1217,7 @@ Waypoints
     height: 95%;
   }
 
-  .wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+  .wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 }
 
@@ -1242,7 +1242,7 @@ Waypoints
   .mobileadjust { width: 95%;
     height: 95%;
   }
-  .wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+  .wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
 }
 
