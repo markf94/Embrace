@@ -738,7 +738,7 @@ Waypoints
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .delay-1-5s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
-.wp3 { background: url('../img/partner/partners3.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
+.wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp1 { background: url('../img/projects/Seahorse-02.png') rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp12 { background: rgba(149, 202, 153, 0.5) no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 .wpp2 { background: url('../img/projects/zoning4.png') rgba(16, 72, 135, 0.5) no-repeat right center; background-position: 100px 100px 100px 100px  ; height: 100%;}
@@ -1019,9 +1019,9 @@ Waypoints
   .cd-primary-nav {
       top: 10px;
   }
-  .hero h1 { font-size: 40px !important; letter-spacing: 12px; margin: 3px; }
+  .hero h1 { font-size: 60px !important; letter-spacing: 12px; margin: 3px; }
   .hero h1 span { color: #a1a9b0; display: inline-block; }
-  .hero h3 { color: #f3f5f8; font-size: 45px !important; letter-spacing: 12px; margin: 3px; text-align: center !important; margin-left: auto; margin-right: auto; }
+  .hero h3 { color: #f3f5f8; font-size: 35px !important; letter-spacing: 12px; margin: 3px; text-align: center !important; margin-left: auto; margin-right: auto; }
   .hero p { color: #fff;letter-spacing: 1px; }
 
   .mobileadjust { width: 90%;
@@ -1073,9 +1073,9 @@ Waypoints
       top: 80px !important;
   }
 
-  .hero h1 { font-size: 40px !important; letter-spacing: 12px; margin: 3px; }
+  .hero h1 { font-size: 50px !important; letter-spacing: 12px; margin: 3px; }
   .hero h1 span { color: #a1a9b0; display: inline-block; }
-  .hero h3 { color: #f3f5f8; font-size: 45px !important; letter-spacing: 12px; margin: 3px; text-align: center !important; margin-left: auto; margin-right: auto; }
+  .hero h3 { color: #f3f5f8; font-size: 35px !important; letter-spacing: 12px; margin: 3px; text-align: center !important; margin-left: auto; margin-right: auto; }
   .hero p { color: #fff;letter-spacing: 1px; }
 
   .mobileadjust { width: 95%;
