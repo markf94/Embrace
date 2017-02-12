@@ -1026,6 +1026,8 @@ Waypoints
 
   .mobileadjust { width: 90%;
     height: 90%;
+    max-width: 90%;
+    height: auto;
   }
 
   .swag { margin-top: 0px;}
@@ -1052,8 +1054,11 @@ Waypoints
   .hero h3 { color: #f3f5f8; font-size: 13px !important; letter-spacing: 12px; margin: 3px; text-align: center !important; margin-left: auto; margin-right: auto; }
   .hero p { color: #fff;letter-spacing: 1px; }
 
-  .mobileadjust { width: 90%;
+  .mobileadjust {
+    width: 90%;
     height: 90%;
+    max-width: 90%;
+    height: auto;
   }
 
   .nav-pills > li > a {
@@ -1080,6 +1085,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
 
   .nav-pills > li > a {
@@ -1107,6 +1114,9 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
+
   }
 
   .nav-pills > li > a {
@@ -1135,6 +1145,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
 }
 
@@ -1158,6 +1170,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
 
   .mobilespace {
@@ -1187,6 +1201,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
 
   .mobilespace {
@@ -1217,6 +1233,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
 
   .wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
@@ -1243,6 +1261,8 @@ Waypoints
 
   .mobileadjust { width: 95%;
     height: 95%;
+    max-width: 90%;
+    height: auto;
   }
   .wp3 { background: url('../img/partner/knaiMEO2.png') no-repeat center center; background-position: 0px 0px 0px 00px  ; height: 100%; }
 
